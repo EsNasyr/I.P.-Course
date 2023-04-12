@@ -59,22 +59,54 @@
 // ---------- 3
 //
 
-const arr = ["Harry", 5, "Gareth", 3, "Nasyr", 5];
-arr[10] = 11;
-console.log(arr)
+// const arr = ["Harry", 5, "Gareth", 3, "Nasyr", 5];
+// arr[10] = 11;
+// console.log(arr)
+//
+// const obj = {
+//   "Harry": 5,
+//   "Gareth": 3,
+//   "Nasyr": 5,
+//     asd: {
+//       3: 46
+//     }
+// };
+// const Maksut = {};
+// obj.Harry = 25;
+// obj[Maksut] = 5; // Пример добавления элемента в объект (обращение к несуществующему элементу)
+// obj['Urmat'] = 6; // Пример добавления элемента в объект (обращение к несуществующему элементу)
+// console.log(obj);
 
-const obj = {
-  "Harry": 5,
-  "Gareth": 3,
-  "Nasyr": 5,
-    asd: {
-      3: 46
-    }
-};
-const Maksut = {};
-obj.Harry = 25;
-obj[Maksut] = 5; // Пример добавления элемента в объект (обращение к несуществующему элементу)
-obj['Urmat'] = 6; // Пример добавления элемента в объект (обращение к несуществующему элементу)
-console.log(obj);
 //
 // ---------- 3
+// ---------- 4
+//
+
+//alert('THE COMEBACK')
+
+//const result = confirm('Are you successful person?');
+
+// const response1 = +prompt('Enter a number');
+// const response2 = +prompt('Enter a number');
+// console.log(response1 + response2);
+
+// const answer = prompt("How old are you?", "15")
+// console.log(typeof(answer))
+
+const answers = []
+
+answers[0] = prompt("Whats your name?");
+answers[1] = prompt("Whats your surname?");
+answers[2] = prompt("How old are you?");
+
+document.write(`
+<ul>
+<li>Name: ${answers[0]}</li>
+<li>Surname: ${answers[1]}</li>
+<li>Age: ${answers[2]}</li>
+<ul/>
+`)
+
+console.log(answers)
+//
+// ---------- 4
