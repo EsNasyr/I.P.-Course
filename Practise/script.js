@@ -113,13 +113,48 @@
 // 5.Интерполяция ----------
 //
 
-const category = "shoes";
-
-console.log(`https://home/${category}/NikeAir`);
-
-const name = "Nasyr";
-
-alert(`Привет ${name}`)
+// const category = "shoes";
+//
+// console.log(`https://home/${category}/NikeAir`);
+//
+// const name = "Nasyr";
+//
+// alert(`Привет ${name}`)
 
 //
 // ---------- 5
+// 6.Операторы в JS ----------
+//
+
+console.log("arr" + " - obj");
+console.log(4 + " - obj");
+console.log(4 + +"5");
+
+let incr = 10,
+    decr= 10;
+
+//incr++;
+//decr--;
+
+// console.log(incr++); //10 //Костветскная форма, сначало выдает первоначальное значение, а затем новое значение
+// console.log(--decr); //9 //Префиксная форма сразу выдает новое значание
+//
+// console.log(5%2); //1 //Деление с остатком, возвращает остаток
+//
+// console.log(2*4 == 8); //true //Нестрогое сравнение
+// console.log(2*4 == '8'); //true
+// console.log(2*4 === '8'); //false //Строгое сравнение
+// console.log(2*4 === 8); //true
+
+const isChecked = true,
+      isClose = false;
+
+console.log(isChecked && isClose); //false
+console.log(isChecked || isClose); //true
+console.log(isChecked && !isClose); //true
+
+console.log(2 + 2 * 2 != 8); //true
+console.log(2 + 2 * 2 != 6); //false
+console.log(2 + 2 * 2 !== '6'); //true
+//
+// ---------- 6
