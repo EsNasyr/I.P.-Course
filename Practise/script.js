@@ -79,7 +79,7 @@
 
 //
 // ---------- 3
-// ---------- 4
+// 4.Простое общение с пользователем ----------
 //
 
 //alert('THE COMEBACK')
@@ -93,20 +93,33 @@
 // const answer = prompt("How old are you?", "15")
 // console.log(typeof(answer))
 
-const answers = []
-
-answers[0] = prompt("Whats your name?");
-answers[1] = prompt("Whats your surname?");
-answers[2] = prompt("How old are you?");
-
-document.write(`
-<ul>
-<li>Name: ${answers[0]}</li>
-<li>Surname: ${answers[1]}</li>
-<li>Age: ${answers[2]}</li>
-<ul/>
-`)
-
-console.log(answers)
+// const answers = []
+//
+// answers[0] = prompt("Whats your name?");
+// answers[1] = prompt("Whats your surname?");
+// answers[2] = prompt("How old are you?");
+//
+// document.write(`
+// <ul>
+// <li>Name: ${answers[0]}</li>
+// <li>Surname: ${answers[1]}</li>
+// <li>Age: ${answers[2]}</li>
+// <ul/>
+// `)
+//
+// console.log(answers)
 //
 // ---------- 4
+// 5.Интерполяция ----------
+//
+
+const category = "shoes";
+
+console.log(`https://home/${category}/NikeAir`);
+
+const name = "Nasyr";
+
+alert(`Привет ${name}`)
+
+//
+// ---------- 5
