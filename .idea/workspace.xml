@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6d53113b-e326-4d27-b601-9ddcd6134113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/script1.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Practise/script2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Practise/script2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/script3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/script3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="I.P.-Course" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,6 +68,13 @@
       <workItem from="1687534190727" duration="1521000" />
       <workItem from="1687791525906" duration="451000" />
       <workItem from="1688556636042" duration="6606000" />
+      <workItem from="1688590868814" duration="2155000" />
+      <workItem from="1688685381418" duration="1544000" />
+      <workItem from="1689178719763" duration="1712000" />
+      <workItem from="1689244269700" duration="1604000" />
+      <workItem from="1689249802990" duration="1014000" />
+      <workItem from="1689252713271" duration="53000" />
+      <workItem from="1689261264248" duration="244000" />
     </task>
     <servers />
   </component>

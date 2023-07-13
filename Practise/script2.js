@@ -1,4 +1,3 @@
-"use strict";
 // 1. Переменные и строгий режим ----------
 //
 
@@ -153,13 +152,45 @@
 // console.log(isChecked || isClose); //true
 // console.log(isChecked && !isClose); //true
 //
-const numbers = 2 + 2 * 2;
-console.log(2 + 2 * 2 != 8); //true
-console.log(numbers != 6); //false //значение
-console.log(numbers !== '6'); //true //значение и тип данных
+// const numbers = 2 + 2 * 2;
+// console.log(2 + 2 * 2 != 8); //true
+// console.log(numbers != 6); //false //значение
+// console.log(numbers !== '6'); //true //значение и тип данных
 //
 // ---------- 6
 // 7.Условия ----------
 //
 
+// if (4 == 4) {
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
+// const num = 50;
+//
+// // (num === 50) ? (console.log(true)) : (console.log(false));
+//
+// switch (num) {
+//     case 49:
+//         console.log(false);
+//         break;
+//     case 12:
+//         console.log(false);
+//         break;
+//     case '50':
+//         console.log(true);
+//         break;
+//     default:
+//         console.log("Not this time");
+//         break;
+// }
+//
 // ---------- 7
+
+// 8.Логические операторы ----------
+//
+
+
+
+//
+// ---------- 8
