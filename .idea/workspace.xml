@@ -4,6 +4,7 @@
     <list default="true" id="6d53113b-e326-4d27-b601-9ddcd6134113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practise/script2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Practise/script2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/script3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/script3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,9 @@
       <workItem from="1689244269700" duration="1604000" />
       <workItem from="1689249802990" duration="1014000" />
       <workItem from="1689252713271" duration="53000" />
-      <workItem from="1689261264248" duration="244000" />
+      <workItem from="1689261264248" duration="530000" />
+      <workItem from="1689262754043" duration="392000" />
+      <workItem from="1689272509892" duration="6379000" />
     </task>
     <servers />
   </component>

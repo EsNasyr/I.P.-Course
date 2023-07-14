@@ -189,8 +189,50 @@
 
 // 8.Логические операторы ----------
 //
+// const hamburger = 12;
+// const taco = 0;
+//
+// if (hamburger && taco) {
+//     console.log('I am full');
+// } else {
+//     console.log('I am not full')
+// }
 
+// const hamburger = 3;
+// const fries = 1;
+// const cola = 0;
+//
+// console.log(hamburger === 3 && cola && fries);
+//
+// console.log(1 && 0);
+// console.log(1 && 5);
+// console.log(null && 5);
+// console.log(0 && 'qwerty');
+// // Когда логический оператор 'и' работает с данными,
+// // 1 - при ошибке он возвращает первое неверное значение на котором он остановился
+// // 2 - при правильном решении он возращает значение на котором остановилось это решение
+// if (hamburger === 3 && cola === 1 && fries) {
+//     console.log('We are full');
+// } else {
+//     console.log('We are leaving')
+// }
+// const qwert = '1234';
 
-
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
+// console.log(hamburger || cola || fries);
+//
+// if (hamburger === 3 && (cola === 2 || fries === 3) && nuggets) {
+//     console.log('We are pleasant');
+// } else {
+//     console.log('We are leaving')
+// }
+//
+// let johnReport, alexReport, samReport, mariaReport = 'done';
+// console.log(johnReport || alexReport || samReport || mariaReport);
+//
+// console.log(!0);
 //
 // ---------- 8
