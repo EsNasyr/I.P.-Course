@@ -101,10 +101,28 @@
 // }
 // console.log(data);
 
-// const data = [5, 10, 'Shopping', 20, 'Homework'];
-// const result = [];
-// for (let i = 1; i <= data.length; i++) {
-//     result[i - 1] = data[data.length - i];
-// }
-// console.log(result);
+    // const data = [5, 10, 'Shopping', 20, 'Homework'];
+    // const result = [];
+    // for (let i = 1; i <= data.length; i++) {
+    //     result[i - 1] = data[data.length - i];
+    // }
+    // console.log(result);
+
 // Tasks 2
+// Tasks 3
+const lines = 5;
+let result = '';
+for (let i = 0; i <= lines; i++) {
+    for (let j = 5; j >= i; j--) {
+        result += " ";
+    }
+    for (let j = 0; j < 2 * i + 1; j++) {
+        result += "*";
+    }
+    result += '\n';
+}
+console.log(result);
+
+
+
+// Tasks 3
