@@ -15,7 +15,18 @@
 // Код возьмите из предыдущего домашнего задания
 
 const numberOfFilms = +prompt("Сколько фильмов уже посмотрели?", " ");
-
+if (numberOfFilms < 10) {
+    alert("Просмотренно довольно мало фильмов")
+}
+else if (10 <= numberOfFilms && numberOfFilms <= 30) {
+    alert("Вы класcический зритель")
+}
+else if (numberOfFilms > 30) {
+    alert("Вы киноман!")
+}
+else {
+    alert("Произошла ошибка")
+}
 const personalMovieDB = {
     count: numberOfFilms,
     movies: {
@@ -27,18 +38,7 @@ const personalMovieDB = {
     genres: [],
     privat: false
 };
-if (personalMovieDB.count < 10) {
-    alert("Просмотренно довольно мало фильмов")
-}
-else if (10 <= personalMovieDB.count <= 30) {
-    alert("Вы класcический зритель")
-}
-else if (personalMovieDB.count > 30) {
-    alert("Вы киноман!")
-}
-else {
-    alert("Произошла ошибка")
-}
+
 const TheLastFilm1 = prompt("Один из последних просмотренных фильмов?", " ");
 const FilmRate1 = +prompt("На сколько оцените его?", " ");
 
