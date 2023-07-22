@@ -14,19 +14,8 @@
 
 // Код возьмите из предыдущего домашнего задания
 
-const numberOfFilms = +prompt("Сколько фильмов уже посмотрели?", " ");
-if (numberOfFilms < 10) {
-    alert("Просмотренно довольно мало фильмов")
-}
-else if (10 <= numberOfFilms && numberOfFilms <= 30) {
-    alert("Вы класcический зритель")
-}
-else if (numberOfFilms > 30) {
-    alert("Вы киноман!")
-}
-else {
-    alert("Произошла ошибка")
-}
+const numberOfFilms = prompt("Сколько фильмов уже посмотрели?", " ");
+
 const personalMovieDB = {
     count: numberOfFilms,
     movies: {
@@ -39,10 +28,33 @@ const personalMovieDB = {
     privat: false
 };
 
-const TheLastFilm1 = prompt("Один из последних просмотренных фильмов?", " ");
-const FilmRate1 = +prompt("На сколько оцените его?", " ");
 
-personalMovieDB.movies[TheLastFilm1] = FilmRate1;
 
+for (let i = 0;i < 2; i++) {
+    const a = prompt("Один из последних просмотренных фильмов?", '');
+    const b = prompt("На сколько оцените его?", '');
+    if  (a != null && b != null && a != '' && b != '' && a.length < 50) {
+        personalMovieDB.movies[a] = b;
+        console.log("Done");
+    } else {
+        i--;
+        console.log("Error");
+    }
+}
+
+    
+    
+if (personalMovieDB.count < 10) {
+    console.log("Просмотренно довольно мало фильмов")
+}
+else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+    console.log("Вы класический зритель")
+}
+else if (personalMovieDB.count >= 30) {
+    console.log("Вы киноман!")
+}
+else {
+    console.log("Произошла ошибка")
+}
 console.log(personalMovieDB);
 
