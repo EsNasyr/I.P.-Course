@@ -329,14 +329,36 @@
 //
 // ---------- 11
 // 12. Еще раз про аргументы функций
+// 13. Про важность return
 //
-const usdCurr = 87;
-const eurCurr = 96;
-function convert(amount, curr) {
-    console.log(curr * amount)
-}
-convert(500, usdCurr);
-convert(500, eurCurr);
+// const usdCurr = 87;
+// const eurCurr = 96;
+// const discount = 0.9;
+//
+// function convert(amount, curr) {
+//     return curr * amount; // return прекращает работу функции
+// }
+//
+// function promotion(result) {
+//     console.log(result * discount)
+// }
+//
+// const res = convert(500, usdCurr);
+// promotion(res);
+
+// function test() {
+//     for (let i = 0; i < 5; i++) {
+//         console.log(i);
+//         if (i === 3) return
+//     }
+//     console.log('Done');
+// }
+//
+// console.log(typeof test());
+//
+// function doNothing() {}
+// console.log(doNothing() === undefined); //true
 //
 // ---------- 12
+// ---------- 13
 
