@@ -39,7 +39,7 @@ for (let i = 0;i < 2; i++) {
     } else {
         i--;
         console.log("Error");
-    }
+    } 
 }
 
     

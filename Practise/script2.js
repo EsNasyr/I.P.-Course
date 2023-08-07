@@ -294,4 +294,39 @@
 // }
 //
 // ---------- 10
+// 11. Функции, стрелочные функции ----------
+//
+// let num = 20;
+// function showFirstMessage(text1, text2) {
+//     console.log(text1 + text2);
+//     num = 10
+// }
+// showFirstMessage('Hello ', 'World');
+// console.log(num);
+
+// function calc(a, b) {
+//     return (a + b);
+// }
+// console.log(calc(3, 4));
+// console.log(calc(5, 3));
+// console.log(calc(9, 7));
+//
+// function ret() {
+//     let num = 50;
+//     return num
+// } // function expression - создается до запуска скрипта, можно объявлять до ее существования
+// const anotherNum = ret();
+// console.log(anotherNum);
+// const logger = function () {
+//     console.log('Hello')
+// }; // function expression - создается только тогда, когда до нее доходит поток кода, можно объявлять только после ее существования
+// logger()
+
+const calcFunc = (a, b) => {
+    console.log(a + b)
+};
+calcFunc(3, 3)
+//
+// ---------- 11
+
 
