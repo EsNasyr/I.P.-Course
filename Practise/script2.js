@@ -322,11 +322,21 @@
 // }; // function expression - создается только тогда, когда до нее доходит поток кода, можно объявлять только после ее существования
 // logger()
 
-const calcFunc = (a, b) => {
-    console.log(a + b)
-};
-calcFunc(3, 3)
+// const calcFunc = (a, b) => {
+//     console.log(a + b)
+// };
+// calcFunc(3, 3)
 //
 // ---------- 11
-
+// 12. Еще раз про аргументы функций
+//
+const usdCurr = 87;
+const eurCurr = 96;
+function convert(amount, curr) {
+    console.log(curr * amount)
+}
+convert(500, usdCurr);
+convert(500, eurCurr);
+//
+// ---------- 12
 
