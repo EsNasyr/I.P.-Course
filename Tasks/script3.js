@@ -110,19 +110,53 @@
 
 // Tasks 2
 // Tasks 3
-const lines = 5;
-let result = '';
-for (let i = 0; i <= lines; i++) {
-    for (let j = 5; j >= i; j--) {
-        result += " ";
-    }
-    for (let j = 0; j < 2 * i + 1; j++) {
-        result += "*";
-    }
-    result += '\n';
-}
-console.log(result);
-
-
-
+// const lines = 5;
+// let result = '';
+// for (let i = 0; i <= lines; i++) {
+//     for (let j = 5; j >= i; j--) {
+//         result += " ";
+//     }
+//     for (let j = 0; j < 2 * i + 1; j++) {
+//         result += "*";
+//     }
+//     result += '\n';
+// }
+// console.log(result);
 // Tasks 3
+// Tasks 4
+// Место для первой задачи
+function sayHello(name) {
+    return `Привет, ${name}!`;
+}
+console.log(sayHello("Антон!"));
+// Место для второй задачи
+function returnNeighboringNumbers(number) {
+    return [number - 1, number, number + 1];
+}
+console.log(returnNeighboringNumbers(5));
+// Место для третьей задачи
+function getMathResult(num, times) {
+    if (typeof(times) !== 'number' || times <= 0) {
+        return num;
+    }
+    let str = '';
+    for (let i = 1; i <= times; i++) {
+        if (i === times) {
+            str += `${num * i}`;
+            // Тут без черточек в конце
+        } else {
+            str += `${num * i}---`;
+            // Это тоже самое, что и
+            // str = str + num * i + "---"
+        }
+    }
+    return str;
+}
+
+console.log(getMathResult(5, 3));
+console.log(getMathResult(3, 10));
+console.log(getMathResult(10, 5));
+console.log(getMathResult(10, '5'));
+console.log(getMathResult(10, 0));
+console.log(getMathResult(20, -5));
+// Tasks 4
