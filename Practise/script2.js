@@ -83,9 +83,9 @@
 
 //alert('THE COMEBACK')
 
-//const result = confirm('Are you successful person?');
+// const result = confirm('Are you successful person?');
 
-// const response1 = +prompt('Enter a number');
+//const response1 = +prompt('Enter a number');
 // const response2 = +prompt('Enter a number');
 // console.log(response1 + response2);
 
@@ -319,7 +319,7 @@
 // console.log(anotherNum);
 // const logger = function () {
 //     console.log('Hello')
-// }; // function expression - создается только тогда, когда до нее доходит поток кода, можно объявлять только после ее существования
+// }; // function declaration - создается только тогда, когда до нее доходит поток кода, можно объявлять только после ее существования
 // logger()
 
 // const calcFunc = (a, b) => {
@@ -361,5 +361,53 @@
 //
 // ---------- 12
 // ---------- 13
+
+// 14. Методы и свойства строк и чисел
+//
+// const str1 = "test";
+// const str2 = "tEst";
+// let arr = [1, 2, 3];
+// //console.log(arr.length);
+// //console.log(str.length);
+// //console.log(str[3]);
+// console.log(str1.toUpperCase());
+// console.log(str2.toLowerCase());
+// console.log(str1);
+//
+// const fruit = "Some fruit";
+//
+// console.log(fruit.indexOf("S"));
+//
+// const logo = "Hello World!";
+// const newLogo = logo.slice(6,11);
+// console.log(newLogo);
+// console.log(logo.slice(6, 11));
+//
+// const practise = 'Just do it!';
+// console.log(practise.slice(0, 5));
+// console.log(practise.slice(5, 7));
+// console.log(practise.slice(8, 10)); //10 - индекс на котором заканчивается вырез, 10 не включает в себя букву // it
+// console.log(practise.slice(8));
+// console.log(practise.slice(-7, -1)); // поддерживает отрицательные значение, отрицательный аргумент - начинает вырезать с конца
+//
+// console.log(practise.substring(5, 7)); // не поддерживает отрицательные значение, -6 = 0
+//
+// console.log(practise.substr(5, 2));
+// Числа
+const number1 = 4;
+const number2 = 34;
+const number3 = 642;
+const number4 = 24.51;
+console.log(Math.max(number1, number2, number3));
+console.log(Math.min(number1, number2, number3));
+console.log(Math.min(number1, number2, number3));
+console.log(Math.round(number4));
+console.log(number4.toString(4));
+
+const test = "22.3pxewrnlrp";
+console.log(parseInt(test)); // переводит число в другую систему исчисления // 22
+console.log(parseFloat(test)); // оставляет дроби // 22.3
+//
+// ---------- 14
 
 

@@ -4,7 +4,6 @@
     <list default="true" id="6d53113b-e326-4d27-b601-9ddcd6134113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practise/script2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Practise/script2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/script3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/script3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,8 @@
       <workItem from="1690033925947" duration="3402000" />
       <workItem from="1691364858867" duration="1185000" />
       <workItem from="1691396558304" duration="14426000" />
-      <workItem from="1691510111430" duration="2280000" />
+      <workItem from="1691510111430" duration="4384000" />
+      <workItem from="1691595849566" duration="4833000" />
     </task>
     <servers />
   </component>
@@ -107,9 +107,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1688556890034" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1681106027352">
+    <state x="314" y="61" width="737" height="606" key="find.popup" timestamp="1691597852529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1681106027352" />
+    <state x="314" y="61" width="737" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1691597852529" />
   </component>
 </project>
