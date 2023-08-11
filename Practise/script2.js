@@ -407,7 +407,7 @@ console.log(number4.toString(4));
 const test = "22.3pxewrnlrp";
 console.log(parseInt(test)); // переводит число в другую систему исчисления // 22
 console.log(parseFloat(test)); // оставляет дроби // 22.3
-//
+ //
 // ---------- 14
 
 

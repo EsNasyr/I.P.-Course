@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d53113b-e326-4d27-b601-9ddcd6134113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/script1.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/script1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practise/script2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Practise/script2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/script3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/script3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,10 @@
       <workItem from="1691364858867" duration="1185000" />
       <workItem from="1691396558304" duration="14426000" />
       <workItem from="1691510111430" duration="4384000" />
-      <workItem from="1691595849566" duration="7978000" />
+      <workItem from="1691595849566" duration="8183000" />
+      <workItem from="1691674696394" duration="6236000" />
+      <workItem from="1691698799284" duration="5858000" />
+      <workItem from="1691775378261" duration="2746000" />
     </task>
     <servers />
   </component>
@@ -111,5 +115,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="314" y="61" width="737" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1691597852529" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1691680969250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1691680969250" />
   </component>
 </project>
