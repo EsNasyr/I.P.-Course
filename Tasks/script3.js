@@ -162,44 +162,82 @@
 // Tasks 4
 // Tasks 5
 
-function calculateVolumeAndArea(length) {
-    if (typeof (length) !== 'number' || length < 0 || !Number.isInteger(length)) {
-        return "При вычислении произошла ошибка";
-    }
-
-    let volume = 0,
-        area = 0;
-
-    volume = length * length * length;
-    area = 6 * (length * length);
-
-    return `Объем куба: ${volume}, площадь всей поверхности: ${area}`;
-}
-calculateVolumeAndArea(5);
-calculateVolumeAndArea(15);
-calculateVolumeAndArea(15.5);
-calculateVolumeAndArea('15');
-calculateVolumeAndArea(-15);
-
-
-
-function getCoupeNumber(seatNumber) {
-    if (typeof (seatNumber) !== 'number' || seatNumber < 0 || !Number.isInteger(seatNumber)) {
-        return "Ошибка. Проверьте правильность введенного номера места";
-    }
-
-    if (seatNumber === 0 || seatNumber > 36) {
-        return "Таких мест в вагоне не существует";
-    }
-
-    return Math.ceil(seatNumber / 4);
-}
-console.log(getCoupeNumber(33));
-console.log(getCoupeNumber(7));
-console.log(getCoupeNumber(300));
-console.log(getCoupeNumber(0));
-console.log(getCoupeNumber(7.7));
-console.log(getCoupeNumber(-10));
-console.log(getCoupeNumber('Hello'));
+// function calculateVolumeAndArea(length) {
+//     if (typeof (length) !== 'number' || length < 0 || !Number.isInteger(length)) {
+//         return "При вычислении произошла ошибка";
+//     }
+//
+//     let volume = 0,
+//         area = 0;
+//
+//     volume = length * length * length;
+//     area = 6 * (length * length);
+//
+//     return `Объем куба: ${volume}, площадь всей поверхности: ${area}`;
+// }
+// calculateVolumeAndArea(5);
+// calculateVolumeAndArea(15);
+// calculateVolumeAndArea(15.5);
+// calculateVolumeAndArea('15');
+// calculateVolumeAndArea(-15);
+//
+//
+//
+// function getCoupeNumber(seatNumber) {
+//     if (typeof (seatNumber) !== 'number' || seatNumber < 0 || !Number.isInteger(seatNumber)) {
+//         return "Ошибка. Проверьте правильность введенного номера места";
+//     }
+//
+//     if (seatNumber === 0 || seatNumber > 36) {
+//         return "Таких мест в вагоне не существует";
+//     }
+//
+//     return Math.ceil(seatNumber / 4);
+// }
+// console.log(getCoupeNumber(33));
+// console.log(getCoupeNumber(7));
+// console.log(getCoupeNumber(300));
+// console.log(getCoupeNumber(0));
+// console.log(getCoupeNumber(7.7));
+// console.log(getCoupeNumber(-10));
+// console.log(getCoupeNumber('Hello'));
 // Tasks 5
+// Tasks 6
+// function getTimeFromMinutes(minutes) {
+//     if (typeof (minutes) !== 'number' || minutes < 0 || !Number.isInteger(minutes)) {
+//         return "Ошибка. Проверьте правильность введенного номера места";
+//     }
+//     let hours = Math.round(minutes / 60 - 0.50);
+//     let minute = minutes % 60;
+//     if (hours === 1) {
+//         return `Это ${hours} час и ${minute} минут`
+//     }
+//     else if (hours >= 2 && hours <= 4) {
+//         return `Это ${hours} часа и ${minute} минут`
+//     }
+//     else if (hours === 0 || hours >= 5 && hours <= 10) {
+//         return `Это ${hours} часов и ${minute} минут`
+//     }
+// }
+// console.log(getTimeFromMinutes(150));
+// console.log(getTimeFromMinutes(15.4));
+// console.log(getTimeFromMinutes('15'));
+// console.log(getTimeFromMinutes(50));
+// console.log(getTimeFromMinutes(0));
+// console.log(getTimeFromMinutes(-150));
+
+
+
+function findMaxNumber(a, b, c, d) {
+    let arr = [a, b, c, d];
+    if (arr.length < 4 || arr) {
+        return 0
+    }
+
+    Math.max(a, b, c, d)
+}
+console.log(findMaxNumber(1, 5, 6.6, 11));
+
+
+// Tasks 6
 
