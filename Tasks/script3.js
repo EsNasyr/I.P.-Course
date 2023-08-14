@@ -203,40 +203,43 @@
 // console.log(getCoupeNumber('Hello'));
 // Tasks 5
 // Tasks 6
-// function getTimeFromMinutes(minutes) {
-//     if (typeof (minutes) !== 'number' || minutes < 0 || !Number.isInteger(minutes)) {
-//         return "Ошибка. Проверьте правильность введенного номера места";
-//     }
-//     let hours = Math.round(minutes / 60 - 0.50);
-//     let minute = minutes % 60;
-//     if (hours === 1) {
-//         return `Это ${hours} час и ${minute} минут`
-//     }
-//     else if (hours >= 2 && hours <= 4) {
-//         return `Это ${hours} часа и ${minute} минут`
-//     }
-//     else if (hours === 0 || hours >= 5 && hours <= 10) {
-//         return `Это ${hours} часов и ${minute} минут`
-//     }
-// }
-// console.log(getTimeFromMinutes(150));
-// console.log(getTimeFromMinutes(15.4));
-// console.log(getTimeFromMinutes('15'));
-// console.log(getTimeFromMinutes(50));
-// console.log(getTimeFromMinutes(0));
-// console.log(getTimeFromMinutes(-150));
-
-
-
-function findMaxNumber(a, b, c, d) {
-    let arr = [a, b, c, d];
-    if (arr.length < 4 || arr) {
-        return 0
+function getTimeFromMinutes(minutes) {
+    if (typeof (minutes) !== 'number' || minutes < 0 || !Number.isInteger(minutes)) {
+        return "Ошибка, проверьте данные";
     }
-
-    Math.max(a, b, c, d)
+    let hours = Math.round(minutes / 60 - 0.50);
+    let min = minutes % 60;
+    if (hours === 1) {
+        return `Это ${hours} час и ${min} минут`
+    }
+    else if (hours >= 2 && hours <= 4) {
+        return `Это ${hours} часа и ${min} минут`
+    }
+    else if (hours === 0 || hours >= 5 && hours <= 10) {
+        return `Это ${hours} часов и ${min} минут`
+    }
 }
-console.log(findMaxNumber(1, 5, 6.6, 11));
+console.log(getTimeFromMinutes(150));
+console.log(getTimeFromMinutes(15.4));
+console.log(getTimeFromMinutes('15'));
+console.log(getTimeFromMinutes(50));
+console.log(getTimeFromMinutes(0));
+console.log(getTimeFromMinutes(-150));
+
+
+
+// function findMaxNumber(a, b, c, d) {
+//     if (arguments < 4 || typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number' || typeof d !== 'number') {
+//         return 0
+//     }
+//     return Math.max(a, b, c, d)
+// }
+//
+// console.log(findMaxNumber(1, 5, 6.6, 11));
+// console.log(findMaxNumber(25, 5.24, '6.6', 11));
+// console.log(findMaxNumber(1, 5, 6.6));
+// console.log(findMaxNumber(1, 5, 6.6, true));
+// console.log(findMaxNumber(1, 5, 6.6));
 
 
 // Tasks 6
