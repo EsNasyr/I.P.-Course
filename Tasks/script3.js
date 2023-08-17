@@ -203,28 +203,28 @@
 // console.log(getCoupeNumber('Hello'));
 // Tasks 5
 // Tasks 6
-function getTimeFromMinutes(minutes) {
-    if (typeof (minutes) !== 'number' || minutes < 0 || !Number.isInteger(minutes)) {
-        return "Ошибка, проверьте данные";
-    }
-    let hours = Math.round(minutes / 60 - 0.50);
-    let min = minutes % 60;
-    if (hours === 1) {
-        return `Это ${hours} час и ${min} минут`
-    }
-    else if (hours >= 2 && hours <= 4) {
-        return `Это ${hours} часа и ${min} минут`
-    }
-    else if (hours === 0 || hours >= 5 && hours <= 10) {
-        return `Это ${hours} часов и ${min} минут`
-    }
-}
-console.log(getTimeFromMinutes(150));
-console.log(getTimeFromMinutes(15.4));
-console.log(getTimeFromMinutes('15'));
-console.log(getTimeFromMinutes(50));
-console.log(getTimeFromMinutes(0));
-console.log(getTimeFromMinutes(-150));
+// function getTimeFromMinutes(minutes) {
+//     if (typeof (minutes) !== 'number' || minutes < 0 || !Number.isInteger(minutes)) {
+//         return "Ошибка, проверьте данные";
+//     }
+//     let hours = Math.round(minutes / 60 - 0.50);
+//     let min = minutes % 60;
+//     if (hours === 1) {
+//         return `Это ${hours} час и ${min} минут`
+//     }
+//     else if (hours >= 2 && hours <= 4) {
+//         return `Это ${hours} часа и ${min} минут`
+//     }
+//     else if (hours === 0 || hours >= 5 && hours <= 10) {
+//         return `Это ${hours} часов и ${min} минут`
+//     }
+// }
+// console.log(getTimeFromMinutes(150));
+// console.log(getTimeFromMinutes(15.4));
+// console.log(getTimeFromMinutes('15'));
+// console.log(getTimeFromMinutes(50));
+// console.log(getTimeFromMinutes(0));
+// console.log(getTimeFromMinutes(-150));
 
 
 
@@ -243,4 +243,32 @@ console.log(getTimeFromMinutes(-150));
 
 
 // Tasks 6
+// Tasks 7
+
+function fib(n) {
+    if (typeof n !== 'number') {
+        return '';
+    }
+    let first = 0;
+    let second = 1;
+    let result = '';
+    for (let i = 0; i < n; i++) {
+        if (i + 1 === n) {
+            result += `${first}`;
+            // Без пробела в конце
+        } else {
+            result += `${first} `;
+        }
+
+        let third = first + second;
+        first = second;
+        second = third;
+    }
+    return result;
+}
+
+console.log(fib(8));
+console.log(fib('werew'));
+console.log(fib(true));
+// Tasks 7
 
