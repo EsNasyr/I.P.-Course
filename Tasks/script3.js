@@ -246,7 +246,7 @@
 // Tasks 7
 
 function fib(n) {
-    if (typeof n !== 'number') {
+    if (typeof n !== 'number' || n <= 0 || !Number.isInteger(n)) {
         return '';
     }
     let first = 0;
