@@ -394,20 +394,26 @@
 //
 // console.log(practise.substr(5, 2));
 // Числа
-const number1 = 4;
-const number2 = 34;
-const number3 = 642;
-const number4 = 24.51;
-console.log(Math.max(number1, number2, number3));
-console.log(Math.min(number1, number2, number3));
-console.log(Math.min(number1, number2, number3));
-console.log(Math.round(number4));
-console.log(number4.toString(4));
-
-const test = "22.3pxewrnlrp";
-console.log(parseInt(test)); // переводит число в другую систему исчисления // 22
-console.log(parseFloat(test)); // оставляет дроби // 22.3
- //
+// const number1 = 4;
+// const number2 = 34;
+// const number3 = 642;
+// const number4 = 24.51;
+// console.log(Math.max(number1, number2, number3));
+// console.log(Math.min(number1, number2, number3));
+// console.log(Math.min(number1, number2, number3));
+// console.log(Math.round(number4));
+// console.log(number4.toString(4));
+//
+// const test = "22.3pxewrnlrp";
+// console.log(parseInt(test)); // переводит число в другую систему исчисления // 22
+// console.log(parseFloat(test)); // оставляет дроби // 22.3
+//
 // ---------- 14
 
+// 15. Callback - функции ----------
+function first() {
+    // Do something
+    
 
+}
+// ---------- 15

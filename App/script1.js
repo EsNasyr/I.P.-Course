@@ -14,7 +14,7 @@ P.S. Функции вызывать не обязательно*/
 let numberOfFilms;
 function start() {
     numberOfFilms = +prompt("Сколько фильмов уже посмотрели?", " ");
-    while (numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
+    while (numberOfFilms === '' || numberOfFilms == null || isNaN(numberOfFilms)) {
         numberOfFilms = +prompt("Сколько фильмов уже посмотрели?", " ");
     }
 }
@@ -34,10 +34,10 @@ function rememberMyFilms() {
         const b = prompt("На сколько оцените его?", '');
         if  (a != null && b != null && a !== '' && b !== '' && a.length < 50) {
             personalMovieDB.movies[a] = b;
-            console.log("Done");
+            console.log("Done!");
         } else {
             i--;
-            console.log("Error");
+            console.log("Error!");
         }
     }
 }
@@ -54,7 +54,7 @@ function detectPersonalLevel() {
         console.log("Вы киноман!")
     }
     else {
-        console.log("Произошла ошибка")
+        console.log("Произошла ошибка!")
     }
 }
 detectPersonalLevel();
